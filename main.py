@@ -94,7 +94,7 @@ class MyThresholdCallback(Callback):
 # -------------------------------------------------------------
 
 # loading saved model
-model = load_model(r"C:\Users\dipesh\Desktop\Trained_Model\CNN_on_MNIST")
+model = load_model(r"Trained_Model\CNN_on_MNIST")
 predicted = model.predict(x_test)
 
 print(predicted)
